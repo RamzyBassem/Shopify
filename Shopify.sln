@@ -7,7 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DDD5A703-0DD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BCAB1B19-768D-4BA2-BF86-5A58F7E5886D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopify.Domain", "Shopify.Domain\Shopify.Domain.csproj", "{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopify.Domain", "Shopify.Domain\Shopify.Domain.csproj", "{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopify.Application", "Shopify.Application\Shopify.Application.csproj", "{589DF78E-C088-4040-BDCC-785E049CF1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopify.Infrastructure", "Shopify.Infrastructure\Shopify.Infrastructure.csproj", "{47D440E3-C8FE-45F7-94F3-324DF6722EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.API", "Bookify.API\Bookify.API.csproj", "{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +25,27 @@ Global
 		{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589DF78E-C088-4040-BDCC-785E049CF1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589DF78E-C088-4040-BDCC-785E049CF1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589DF78E-C088-4040-BDCC-785E049CF1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589DF78E-C088-4040-BDCC-785E049CF1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D440E3-C8FE-45F7-94F3-324DF6722EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D440E3-C8FE-45F7-94F3-324DF6722EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D440E3-C8FE-45F7-94F3-324DF6722EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D440E3-C8FE-45F7-94F3-324DF6722EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{57BEC2C7-9DD6-4035-837B-5922EA1A3BA0} = {DDD5A703-0DDD-4612-A223-CC61CD9476AC}
+		{589DF78E-C088-4040-BDCC-785E049CF1B5} = {DDD5A703-0DDD-4612-A223-CC61CD9476AC}
+		{47D440E3-C8FE-45F7-94F3-324DF6722EB0} = {DDD5A703-0DDD-4612-A223-CC61CD9476AC}
+		{29DE121C-BDD9-440E-A0BC-EAF102EBAD7E} = {DDD5A703-0DDD-4612-A223-CC61CD9476AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B97DC5E0-A155-4119-9FE0-0B9230F44C64}
