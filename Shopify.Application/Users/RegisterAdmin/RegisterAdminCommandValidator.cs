@@ -2,7 +2,7 @@
 
 namespace Shopify.Application.Users.RegisterAdmin;
 
-internal sealed class RegisterAdminCommandValidator : AbstractValidator<RegisterAdminCommand>
+public sealed class RegisterAdminCommandValidator : AbstractValidator<RegisterAdminCommand>
 {
     public RegisterAdminCommandValidator()
     {

@@ -37,9 +37,9 @@ namespace Bookify.API.Controllers.Users
 
         }
         [HttpPost("login")]
-        public async Task<IActionResult> Login(string userName, string password, CancellationToken ct)
+        public async Task<IActionResult> Login(LoginRequest request, CancellationToken ct)
         {
-            var command = new LoginUserCommand(userName, password);
+            var command = new LoginUserCommand(request.UserName, request.Password);
             var result = await sender.Send(command, ct);
             return Ok(result.Value);
         }
